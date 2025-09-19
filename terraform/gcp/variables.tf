@@ -1,6 +1,6 @@
 variable "vcpu" {
   type    = number
-  default = 2
+  default = 4
 }
 
 variable "project" {
@@ -22,3 +22,4 @@ variable "ssh_public_key" {
   type    = string
   default = "~/.ssh/id_rsa.pub"
 }
+
